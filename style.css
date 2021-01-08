@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  #myInput {
+    background-image: url('images/search.ico');
+    background-size:25px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  .UL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .UL li{
+    display:flex;
+  }
+  
+  .UL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    flex :27;
+  }
+  
+  .UL li a:hover:not(.header) {
+    background-color: #eee;
+  }
+  .fav{
+    flex:1;
+  }
+  #myUL1 button{
+    background-image: url(images/favorite.ico);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    
+  }
+  #myUL2 button{
+    background-image: url(images/remove.ico);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    
+  }
