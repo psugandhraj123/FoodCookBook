@@ -39,7 +39,6 @@ function populate(meal,flag){
             ${element.strMeal}
             </a>
             <button class = "fav">
-            <i class="fas fa-star"></i>
             </button>
             </li>`
             ).join("");
